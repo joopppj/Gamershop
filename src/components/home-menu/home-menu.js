@@ -14,7 +14,7 @@ class HomeMenu extends React.Component {
                     title: 'Switch',
                     imageUrl: 'https://giffiles.alphacoders.com/158/15815.gif',
                     id: 1,
-                    linkUrl: 'shop/switch'
+                    linkUrl: 'switch'
                 },
                 {
                     title: 'PS5/PS4',
@@ -50,8 +50,9 @@ class HomeMenu extends React.Component {
         return (
             <div className='home-menu'>
                 {
-                    this.state.categories.map(({ title, id, imageUrl, size }) => (
-                        <MenuItem title={title} key={id} imageUrl={imageUrl} size={size} />
+                    //console.log("ss");
+                    this.state.categories.map(({ id, ...otherCateProps }) => (
+                        <MenuItem key={id} {...otherCateProps} />
                     ))
                 }
             </div>

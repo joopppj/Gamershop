@@ -1,0 +1,32 @@
+.nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  
+    .logo-container {
+      height: 20px;
+      width: 20px;
+      padding: 25px;
+    }
+
+    .logo {
+      height: 70px;
+      width: 70px;
+    }
+  
+    .tabs {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .tab {
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+    }
+  }
+  
