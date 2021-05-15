@@ -161,7 +161,7 @@ const SHOP_DATA = [
                 id: 23,
                 name: 'Nintendo Switch with Neon Blue and Neon Red Joy‑Con',
                 imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/61-PblYntsL._AC_SL1500_.jpg',
-                price: "unavailable"
+                price: 299.99
             },
             {
                 id: 24,
@@ -173,7 +173,7 @@ const SHOP_DATA = [
                 id: 25,
                 name: 'PlayStation 5 Digital Edition',
                 imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/61JbCra%2B7GL._SL1500_.jpg',
-                price: "unavailable"
+                price: 399.99
             },
             {
                 id: 26,

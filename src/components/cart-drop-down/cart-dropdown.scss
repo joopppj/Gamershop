@@ -16,6 +16,13 @@
       display: flex;
       flex-direction: column;
       overflow: scroll;
+
+      .empty_msg {
+        color: grey;
+        font-weight: bold;
+        text-align: center;
+        margin: 100px auto
+      }
     }
   
     .checkoutbutton {
