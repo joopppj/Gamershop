@@ -1,0 +1,20 @@
+.category-page {
+    display: flex;
+    flex-direction: column;
+  
+    .category-title {
+      font-size: 38px;
+      margin: 50px auto 30px;
+    }
+  
+    .category-items {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 2%;
+  
+      .category-item {
+        margin-bottom: 100%;
+      }
+    }
+  }
+  

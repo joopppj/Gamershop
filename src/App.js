@@ -16,14 +16,6 @@ import { selectCurrentUser } from './redux/user/user.selectors';
 
 class App extends React.Component {
 
-  /*constructor() {
-    super();
-
-    this.state = {
-      currentUser: null
-    };
-  }*/
-
   unsubscribeFromAuth = null;
   componentDidMount() {
     const { setCurrentUser } = this.props;
@@ -58,7 +50,7 @@ class App extends React.Component {
         <Nav />
         <Switch>
           <Route exact path='/' component={Homepage} />
-          <Route exact path='/shop' component={ShopPage} />
+          <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={Checkoutpage} />
           <Route exact path='/signin' render={() => this.props.currentUser ? (<Redirect to='/' />) : (<SigninPage />)} />
         </Switch>

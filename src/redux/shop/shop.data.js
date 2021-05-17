@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-    {
+const SHOP_DATA = {
+    switch: {
         id: 1,
         title: 'Switch',
         routeName: 'switch',
@@ -60,7 +60,7 @@ const SHOP_DATA = [
             }
         ]
     },
-    {
+    ps5ps4: {
         id: 2,
         title: 'PS4/PS5',
         routeName: 'ps4ps5',
@@ -115,7 +115,7 @@ const SHOP_DATA = [
             }
         ]
     },
-    {
+    xbox: {
         id: 3,
         title: 'Xbox',
         routeName: 'xbox',
@@ -152,7 +152,7 @@ const SHOP_DATA = [
             }
         ]
     },
-    {
+    consoles: {
         id: 4,
         title: 'Consoles',
         routeName: 'consoles',
@@ -201,7 +201,7 @@ const SHOP_DATA = [
             }
         ]
     },
-    {
+    games: {
         id: 5,
         title: 'Games',
         routeName: 'games',
@@ -244,6 +244,6 @@ const SHOP_DATA = [
             }
         ]
     }
-]
+}
 
 export default SHOP_DATA;
