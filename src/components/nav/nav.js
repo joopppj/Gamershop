@@ -22,9 +22,8 @@ const Nav = ({ currentUser, hidden }) => (
             <Link className='tab' to='/shop'>
                 Game Shop
             </Link>
-            <Link className='tab' to='/aboutus'>
-                About Us
-            </Link>
+
+            <a href="https://github.com/joopppj/Gamershop">Source Code</a>
             {
                 currentUser ?
                     <div className='tab' onClick={() => auth.signOut()}>Sign Out</div>
