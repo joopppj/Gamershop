@@ -36,7 +36,7 @@ const Checkoutpage = ({ cartItems, totalPrice }) => (
         }
 
         <div className='totalPrice'>
-            <span>TOTAL PRICE: ${totalPrice}</span>
+            <span>TOTAL PRICE: ${totalPrice.toFixed(2)}</span>
         </div>
 
         <PayButton price={totalPrice} />

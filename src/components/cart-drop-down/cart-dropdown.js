@@ -30,7 +30,7 @@ const CartDropDown = ({ cartItems, history, dispatch }) => (
         </div>
         <Button className='checkoutbutton'
             onClick={() => {
-                history.push('./checkout');
+                history.replace('/checkout');
                 dispatch(toggleCartHidden());
             }}
             variant="contained"
