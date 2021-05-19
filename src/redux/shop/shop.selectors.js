@@ -9,6 +9,7 @@ export const selectCollections = createSelector(
 )
 
 export const selectCollections1 = createSelector(
+    [selectCollections],
     collections => Object.keys(collections).map(key => collections[key])
 )
 
